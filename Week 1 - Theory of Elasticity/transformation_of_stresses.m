@@ -1,9 +1,9 @@
 clc
 % Problem 1 (in MPA)
-sigma_xx = 80; % is +ve because it is facing outwards
-sigma_yy = 80; % is +ve because it is facing outwards
-tao_xy = 45; % is +ve because it is facing top-left and bottom-right
-theta_p = -60; % -ve because the angle is clockwise
+sigma_xx = 333.33; % is +ve because it is facing outwards
+sigma_yy = 666.67; % is +ve because it is facing outwards
+tao_xy = 0; % is +ve because it is facing top-left and bottom-right
+theta_p = 45; % -ve because the angle is clockwise
 
 % Stress transformation
 sigma_xdash = 0.5 * (sigma_xx + sigma_yy) + 0.5 * (sigma_xx - sigma_yy) * cosd(2 * theta_p) + tao_xy * sind(2 * theta_p);
