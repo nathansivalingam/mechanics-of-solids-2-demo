@@ -3,7 +3,7 @@ clc
 sigma_xx = 0; % is +ve because it is facing outwards
 sigma_yy = -9.457; % is +ve because it is facing outwards
 tao_xy = 28.85; % is +ve because it is facing top-left and bottom-right
-theta_p = 90; % -ve because the angle is clockwise
+theta_p = 0; % -ve because the angle is clockwise
 
 % Stress transformation
 sigma_xdash = 0.5 * (sigma_xx + sigma_yy) + 0.5 * (sigma_xx - sigma_yy) * cosd(2 * theta_p) + tao_xy * sind(2 * theta_p);
